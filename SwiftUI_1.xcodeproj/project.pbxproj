@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9092E6D2AB75F8A00ED9C03 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9092E6C2AB75F8A00ED9C03 /* AFButton.swift */; };
 		A937D27A2AAF176D005090C4 /* SwiftUI_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937D2792AAF176D005090C4 /* SwiftUI_1App.swift */; };
 		A937D27C2AAF176D005090C4 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937D27B2AAF176D005090C4 /* FrameworkGridView.swift */; };
 		A937D27E2AAF176F005090C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A937D27D2AAF176F005090C4 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9092E6C2AB75F8A00ED9C03 /* AFButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		A937D2762AAF176D005090C4 /* SwiftUI_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A937D2792AAF176D005090C4 /* SwiftUI_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_1App.swift; sourceTree = "<group>"; };
 		A937D27B2AAF176D005090C4 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				A9BF9B2A2AAF6DB400C6FDCC /* AFButton.swift */,
+				A9092E6C2AB75F8A00ED9C03 /* AFButton.swift */,
 				A9BF9B322AAF7CF600C6FDCC /* ExitButton.swift */,
 			);
 			path = Buttons;
@@ -350,6 +353,7 @@
 				A9BF9B2D2AAF6F7900C6FDCC /* FrameworkGridViewModel.swift in Sources */,
 				A9BF9B312AAF7C5A00C6FDCC /* FrameworkTitleView.swift in Sources */,
 				A9BF9B2F2AAF790C00C6FDCC /* SafariView.swift in Sources */,
+				A9092E6D2AB75F8A00ED9C03 /* AFButton.swift in Sources */,
 				A9BF9B332AAF7CF600C6FDCC /* ExitButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

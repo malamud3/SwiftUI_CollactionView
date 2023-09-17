@@ -11,12 +11,10 @@ struct FreameworkDetailView: View {
     
     var framework: Framework
     
-    @Binding var isShowingDetailView: Bool
     @State private var isShowingSafariView = false
     
     var body: some View {
         VStack{
-            ExitButton(isShowingDetailView: $isShowingDetailView)
             
             Spacer()
             FrameworkTitleView(framework: framework)
@@ -42,7 +40,7 @@ struct FreameworkDetailView: View {
 
 struct FreameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FreameworkDetailView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
+        FreameworkDetailView(framework: MockData.sampleFramework)
             .preferredColorScheme(.dark)
     }
 }

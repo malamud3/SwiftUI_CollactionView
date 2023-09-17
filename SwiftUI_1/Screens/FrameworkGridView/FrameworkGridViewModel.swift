@@ -13,12 +13,12 @@ final class FrameworkGridViewModel: ObservableObject {
                             GridItem(.flexible()),
                             GridItem(.flexible())]
     
-    var selectedFramework: Framework? {
-        didSet{
-            isShowingDetailView = true
-        }
-    }
-    
-   @Published var isShowingDetailView = false
+//    var selectedFramework: Framework? {
+//        didSet{
+//            isShowingDetailView = true
+//        }
+//    }
+//    
+//   @Published var isShowingDetailView = false
 
 }
